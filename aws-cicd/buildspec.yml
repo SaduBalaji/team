@@ -1,0 +1,11 @@
+version:
+
+phases:
+  build:
+    commands:
+      -echo Entered the build phase...
+      -mvn clean package
+      -echo Build completed successfully
+artifacts:
+  files:
+    -target/awscicd.jar 
